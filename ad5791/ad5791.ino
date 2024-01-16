@@ -1,7 +1,6 @@
 #include "src/ad57X1.h"
 
 #define CS_AD5791              7
-//updated comment
 
 AD5791 ad5791(CS_AD5791, &SPI);
 // AD5781 pidDac(CS_AD5781, &SPI1);   // Use SPI1 on MCUs, that have multiple SPI controllers (e.g. Teensy)
